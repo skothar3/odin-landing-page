@@ -1,0 +1,145 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+.section1{
+    background-color: #1f2937;
+    padding: 15px 150px;
+}
+.section1 .header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.section1 .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+.section1 a {
+    text-decoration: none;
+}
+.section1 ul {
+    display: flex;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+  }
+.section1 .largetext {
+    font-size: 48px;
+    font-weight:900;
+    color: #F9FAF8;
+    margin-bottom: 18px;
+}
+.section1 .smalltext, a {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 24px;
+}
+.section1 img {
+    /* flex: 1; */
+    /* max-width: 400px; */
+    max-height: 250px;
+}
+.section1 .main {
+    display: flex;
+    margin-bottom: 60px;
+}
+.section1 .maintext {
+    /* flex: 1; */
+    padding-right: 15px;
+}
+.section1 button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 12px;
+}
+
+.section2 {
+    background-color: white;
+    padding: 15px 150px;
+}
+.section2 .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+.section2 .container {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin-bottom: 60px;
+}
+.section2 button {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    border: solid 4px #3882f6;
+    background-color: white;
+    text-align: center; 
+}
+.section2 .outerbox {
+    text-align: center;
+    max-width: 150px;
+}
+.section2 .text {
+    color: gray;
+    padding-top: 8px;
+}
+
+.section3 {
+    background-color: lightgray;
+    padding: 15px 300px;
+}
+.section3 .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 50px;
+}
+.section3 .author {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: end;
+    margin-bottom: 50px;
+}
+
+.section4 {
+    background-color:#3882f6;
+    padding: 50px 50px;
+    margin: 100px;
+    border-radius: 8px;
+}
+.section4 .container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.section4 .largetext {
+    font-size: 20px;
+    font-weight: 700;
+}
+.section4 .smalltext {
+    color: lightgray;
+}
+.section4 button {
+    background-color: #3882f6;
+    border: solid 2px white;
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 12px;
+}
+
+.footer {
+    background-color: black;
+    color: lightgray;
+    padding: 40px 300px;
+    text-align: center;
+}
